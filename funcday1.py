@@ -120,18 +120,12 @@ z=ami()
 print(z)   
 
 
-def ami() :
-    x="amith"
-    if 
-    y=x[::-1]
-    return y
-z=ami()
-print(z)   
+
         
 def ami() :
     s="amith"
     if len(s)==0 :
-        return ami(s[1:]) + s[0
+        return ami(s[1:]) + s[0]
 ami()
 #or
 
