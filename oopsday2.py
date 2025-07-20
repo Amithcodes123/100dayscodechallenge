@@ -49,19 +49,6 @@ class b (Amith) :
 objec=b("suma" ,65,26,"male") 
 print(objec.ji("sastha")) 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # we can pass methods valuw by assigning value 
 class bha :
     def __init__(self,name):
