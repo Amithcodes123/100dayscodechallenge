@@ -63,7 +63,7 @@ obj.bha("koko")
         self.namee=name 
     def nj(self ,lo) :
         self.lo=lo 
-        print(self.increment +10000 )
+        print(self.increment +10000)
         
 obj=c("amith") 
 obj.nj("looooooop") """
@@ -75,7 +75,7 @@ class c :
     @classmethod
     def nj(cls,lo) :
         cls.lo=lo 
-       # return(cls.increment +=10000 )     # if u simply write like cls.increment+10000 it wont  update in other methods
+       # return(cls.increment +=10000 )  # if u simply write like cls.increment+10000 it wont  update in other methods
         cls.increment+=100000
         return cls.increment
     def ji(self) :   # afer creating classmethod i am trying if it works will it also get 20k
@@ -87,4 +87,4 @@ class c :
 obj1=c("bhatgav") 
 print(obj1.nj("pooil"))  
 print(obj1.ji())   # see here i ma just using self in ji() method so it is =gibving me op ad 1ok
-print(obj1.qw())
+print(obj1.qw()) 
